@@ -1,10 +1,5 @@
 Lecture 54
 
-
-
-
-
-
 How many ways to access property of JS Object?
 
 1.   objectName.property
@@ -36,3 +31,6 @@ How to run JS Code ?
 2. Outside Browser (NodeJs)
 
 console.log()
+
+
+https://www.w3schools.com/js/js_object_properties.asp
