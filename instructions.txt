@@ -1,0 +1,38 @@
+Lecture 54
+
+
+
+
+
+
+How many ways to access property of JS Object?
+
+1.   objectName.property
+2.   objectName["property"] 
+3.   objectName[expression]   
+
+
+""/''/``  String
+876,7.5   Number
+
+{}        Object
+
+//1 . Object.property
+
+let student1={
+		name:"Saloni",
+		surname:"Sharma"
+};
+
+
+
+How to run JS Code ?
+
+5 News
+
+1. Inside Browser  ()
+
+5 News 
+2. Outside Browser (NodeJs)
+
+console.log()

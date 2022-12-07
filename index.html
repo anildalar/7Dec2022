@@ -5,8 +5,86 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JS Object Properties</title>
+
+        <script>
+            //I can write the JS Code Before the closing of head tag
+        </script>
     </head>
     <body>
-        
+        <h1>JS Data Types</h1>
+        <ul>
+            <li>JS Object</li>
+        </ul>
+        <h1 class="mystudent3"></h1>
+
+        <script src="./js/script.js"></script>
+        <script>
+            //I can write the Js code before the closing of body tag
+            var student1= { // 1995 - 2022
+                //1. P:V
+                name:"Vishnu",
+                surname:"Jat"
+            };
+
+            //The first character of the variable name can be a '_'
+            let _student2={  // 2015 onward ES6
+                //1. Property:Value
+                name:"Rakesh",
+                surname:"Kharol"
+
+                //2.
+            };
+
+            //THe first character of the variable name is '$'
+            const $student3={
+                name:"Harish",
+                surname:"Gour"
+            };
+
+            var student4 = {
+                //1. Property:Value
+                name:"Goutam",
+                surname:"Sharma"
+
+
+                //2.
+
+            };
+        </script>
+
+        <script>
+            //How many ways i can display the JS Code
+
+            // 1. console.log
+            //objectName.property
+            console.log(student1.name+' '+student1.surname);//Concatination operator
+
+
+
+            //2. window.alert();
+
+            //objectName["property"] 
+            window.alert(_student2["name"]+" "+_student2["surname"]);
+
+
+            //3. element.innerHTML
+            //objectName[expression];
+
+            let x = 10; //Expression 1
+
+            let y = 20; // Express 2
+
+            let result = x + y; //Expression 3
+
+            let n = "name";
+            var s = "surname";
+            document.querySelector('h1.mystudent3').innerHTML = $student3[n]+` `+$student3[s];
+
+
+
+            //4. document.write();
+            document.write('<strong>'+student4["name"]+student4.surname+'</strong>');
+
+        </script>
     </body>
 </html>
